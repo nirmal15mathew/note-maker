@@ -1,0 +1,25 @@
+:root {
+  --primary: salmon;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.App-Header {
+  background-color: #fefefe;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .7em;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+.Header-Logo {
+  display: flex;
+  align-items: center;
+  font-size: small;
+  color: rgba(0, 0, 0, 0.7);
+}
+.App {
+  background-color: rgba(0, 0, 0, 0.1);
+  min-height: 100vh;
+}
